@@ -14,7 +14,7 @@
                 </div>
                 <div class="flex-grow text-ellipsis whitespace-nowrap overflow-hidden">
                     <div class="text-xl font-medium text-black truncate"> {{ device["hostname"] }}</div>
-                    <p class="text-gray-500">{{ device.timeLeft + " seg - " + switch_state[device.ss] }}</p>
+                    <p class="text-gray-500">{{ device.timeLeft + " seg" }}</p>
                 </div>
 
                 <div class="flex-shrink-0">
